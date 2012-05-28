@@ -5,6 +5,8 @@
 <title><?php bloginfo('name');?><?php wp_title(" - ",true); ?></title>
 <link href="<?php echo bloginfo('stylesheet_url');?>" rel="stylesheet" type="text/css" />
 <link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica:400,400italic' rel='stylesheet' type='text/css' />
+<link rel="pingback" href="<?php bloginfo('pingback_url' );?>" />
+<?php wp_head(); ?>
 </head>
 
 <body>
